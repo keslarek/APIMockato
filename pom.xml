@@ -15,9 +15,9 @@
 	<name>APIMockato</name>
 	<description>Rest API Mocking tool</description>
 	<properties>
+		<github.global.server>github</github.global.server>
 		<java.version>17</java.version>
 	</properties>
-
 
 	<dependencies>
 		<dependency>
