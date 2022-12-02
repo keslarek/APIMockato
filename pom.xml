@@ -17,6 +17,16 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub Packages</name>
+			<url>https://github.com/keslarek/APIMockato.git</url>
+		</repository>
+	</distributionManagement>
+
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -73,7 +83,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			
+
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
