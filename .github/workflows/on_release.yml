@@ -28,8 +28,12 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
-    - name: Release
+    - name: Upload binaries to release
+      uses: svenstaro/upload-release-action@v2
       with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
         files: target/*.zip
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        asset_name: APIMockato
+        tag: ${{ github.ref }}
+        overwrite: true
+        body: "APIMockato Release"
