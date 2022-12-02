@@ -15,17 +15,8 @@
 	<name>APIMockato</name>
 	<description>Rest API Mocking tool</description>
 	<properties>
-		<github.global.server>github</github.global.server>
 		<java.version>17</java.version>
 	</properties>
-
-	<distributionManagement>
-		<repository>
-			<id>github</id>
-			<name>APIMockato</name>
-			<url>https://maven.pkg.github.com/keslarek/APIMockato</url>
-		</repository>
-	</distributionManagement>
 
 
 	<dependencies>
