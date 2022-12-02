@@ -18,14 +18,6 @@
 		<java.version>17</java.version>
 	</properties>
 
-	<distributionManagement>
-		<repository>
-			<id>github</id>
-			<name>GitHub Packages</name>
-			<url>https://github.com/keslarek/APIMockato.git</url>
-		</repository>
-	</distributionManagement>
-
 
 	<dependencies>
 		<dependency>
