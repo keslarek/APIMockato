@@ -32,7 +32,7 @@ jobs:
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        files: target/*.zip
+        file: target/APIMockato-RELEASE.zip
         asset_name: APIMockato
         tag: ${{ github.ref }}
         overwrite: true
