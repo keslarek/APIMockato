@@ -33,7 +33,7 @@ jobs:
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: target/APIMockato-RELEASE.zip
-        asset_name: APIMockato
+        asset_name: APIMockato.zip
         tag: ${{ github.ref }}
         overwrite: true
         body: "APIMockato Release"
