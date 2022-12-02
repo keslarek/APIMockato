@@ -21,8 +21,8 @@
 	<distributionManagement>
 		<repository>
 			<id>github</id>
-			<name>GitHub Packages</name>
-			<url>https://github.com/keslarek/APIMockato.git</url>
+			<name>GitHub OWNER Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/keslarek/APIMockato</url>
 		</repository>
 	</distributionManagement>
 
